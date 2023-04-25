@@ -1,0 +1,526 @@
+https://data.vlaanderen.be/doc/applicatieprofiel/bedrijventerrein/ 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/besluit-publicatie/ 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/besluitvorming 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/contactvoorkeuren/ 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/cultureel-erfgoed-event 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/cultureel-erfgoed-object 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2021-12-02 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/DCAT-AP-VL 
+
+Geen beschrijving gevonden bij klasse Relatie Qualificatie
+Geen beschrijving gevonden bij klasse Contactpunt
+Geen beschrijving gevonden bij klasse Identificator
+ 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/dienst-transactiemodel/ 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/dossier/ 
+
+Kardinaliteit ontbreekt in attribuut attributen van klasse Collectie
+ 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/generieke-terugmeldfaciliteit/ 
+
+fixme gevonden in de link van klasse Applicatie
+fixme gevonden in de link van klasse Eigenschap
+fixme gevonden in attribuut attributen van klasse Eigenschap
+fixme gevonden in de link van klasse Meldingsobject
+fixme gevonden in de link van klasse Terugmelding
+fixme gevonden in attribuut attributen van klasse Terugmelding
+fixme gevonden in de link van klasse Melding Body
+fixme gevonden in de link van klasse Meldingsobject Attribuut
+fixme gevonden in attribuut attributen van klasse Meldingsobject Attribuut
+fixme gevonden in de link van klasse Meldingstatus
+fixme gevonden in attribuut attributen van klasse Meldingstatus
+ 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/ 
+
+fixme gevonden in de link van klasse Applicatie
+fixme gevonden in de link van klasse Melding
+fixme gevonden in attribuut attributen van klasse Melding
+fixme gevonden in de link van klasse Melding Body
+fixme gevonden in de link van klasse Meldingstatus
+fixme gevonden in attribuut attributen van klasse Meldingstatus
+ 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/ldes 
+
+fixme gevonden in attribuut attributen van klasse Node
+ 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/mandatendatabank/ 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/metadata-dcat/ 
+
+Geen beschrijving gevonden bij klasse Relatie Qualificatie
+Geen beschrijving gevonden bij klasse Contactpunt
+Geen beschrijving gevonden bij klasse Identificator
+ 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/stopplaatsen/ 
+
+Geen verwacht type gevonden bij attribuut attributen van klasse Locale
+Geen verwacht type gevonden bij attribuut attributen van klasse Adresvoorstelling
+ 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/ 
+
+Geen verwacht type gevonden bij attribuut attributen van klasse Adresvoorstelling
+ 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/voertuigplanning/ 
+
+Geen verwacht type gevonden bij attribuut attributen van klasse Lijn
+Geen verwacht type gevonden bij attribuut attributen van klasse Adresvoorstelling
+ 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/mobiliteit-trips-en-aanbod 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/notificatie-basis/ 
+
+Kardinaliteit ontbreekt in attribuut attributen van klasse Publieke Dienstverlening
+ 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/openbaar-domein/ 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/perceel/ 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/logies-basis/ 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/mobiliteit/vervoersknooppunten 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/vlaamse-codex/ 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/begraafplaatsenbeheer/ 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/begroeid-voorkomen/ 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/infrastructuurelementen/ 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/onbegroeid-voorkomen/ 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/terreindelen/ 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/vegetatie-elementen/ 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/watervoorkomen/ 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/waterdelen/ 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/begraafplaatsen 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/begraafplaatsenbeheer 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/begroeid-voorkomen 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/gebieden 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/infrastructuurelementen 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/onbegroeid-voorkomen 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/terreindelen 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/vegetatie-elementen 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/waterdelen 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/watervoorkomen 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/openbaar-domein 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/openbaar-domein 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/gebieden 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/infrastructuurelementen 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/vegetatie-elementen 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/terreindelen 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/begroeid-voorkomen 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/onbegroeid-voorkomen 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/waterdelen 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/watervoorkomen 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/begraafplaatsen 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/begraafplaatsenbeheer 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/bedrijventerrein/ 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/dossier/ 
+
+Kardinaliteit ontbreekt in attribuut attributen van klasse Collectie
+ 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/adresregister/ 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/besluit-mobiliteit/ 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/subsidieregister/ 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/bestuurlijk-sanctieregister 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2022-04-28 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/dienstencataloog/ 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/cultuurparticipatie 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/FeitelijkeVerenigingen/ 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/financiele-data 
+
+Alles is in orde! 
+
+
+
+https://test.data.vlaanderen.be/doc/applicatieprofiel/gebouwenregister/ 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/inname-openbaar-domein/ 
+
+Kardinaliteit ontbreekt in attribuut attributen van klasse Organisatie-eenheid
+ 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/loongegevens 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2022-04-28 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/organisatie-basis/ 
+
+Kardinaliteit ontbreekt in attribuut attributen van klasse Positie
+ 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/persoon-basis/ 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/kandidaatstandaard/2022-04-28 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/verkeersborden/ 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/wegenregister/ 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/cultureel-erfgoed-object 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/cultureel-erfgoed-event 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur 
+
+Geen verwacht type gevonden bij attribuut attributen van klasse Nationaliteit
+fixme gevonden in attribuut attributen van klasse Persoon
+Geen beschrijving gevonden bij klasse Geometrie
+Definitie ontbreekt in attribuut attributen van klasse Geometrie
+fixme gevonden in de link van klasse Standaard Eenheid
+ 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/waterkwaliteit 
+
+Alles is in orde! 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/statistiek 
+
+Geen beschrijving gevonden bij klasse Moment
+ 
+
+
+
+https://data.vlaanderen.be/doc/applicatieprofiel/datakwaliteit 
+
+Alles is in orde! 
+
+
+
