@@ -1,0 +1,1018 @@
+{
+    "https://data.vlaanderen.be/doc/applicatieprofiel/bedrijventerrein/": {
+        "Entiteiten": {
+            "Agent": {
+                "klasseLink": "http://purl.org/dc/terms/Agent",
+                "beschrijving": "Iemand die of iets dat kan handelen of een effect kan teweeg brengen.",
+                "attributen": {
+                    "contactinfo": {
+                        "attribuutNaam": "contactinfo",
+                        "attribuutLink": "http://schema.org/contactPoint",
+                        "verwachtType": "Contactinfo",
+                        "verwachtTypeLink": "#Contactinfo",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Informatie zoals email, telefoon, adres die toelaat om iemand of iets te contacteren.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    }
+                }
+            },
+            "Bedrijventerrein": {
+                "klasseLink": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein",
+                "beschrijving": "Som van alle ruimtelijke eenheden uit de ruimtelijke planningsprocedure en met een economische bestemming vanaf de dossierfase Publicatie in Belgisch Staatsblad. Een bedrijventerrein is altijd de unie van de percelen die ertoe behoren.",
+                "attributen": {
+                    "alternatieve naam": {
+                        "attribuutNaam": "alternatieve naam",
+                        "attribuutLink": "http://www.w3.org/2004/02/skos/core#altLabel",
+                        "verwachtType": "TaalString",
+                        "verwachtTypeLink": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Andere naam waaronder het bedrijventerrein bekend is.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "beschikbare kavels": {
+                        "attribuutNaam": "beschikbare kavels",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/bedrijventerrein#beschikbareKavels",
+                        "verwachtType": "Boolean",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#boolean",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Deze eigenschap geeft aan of er al dan niet beschikbare kavels aanwezig zijn op het bedrijventerrein.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "beschikbare oppervlakte": {
+                        "attribuutNaam": "beschikbare oppervlakte",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/bedrijventerrein#beschikbareOppervlakte",
+                        "verwachtType": "Kwantitatieve Waarde",
+                        "verwachtTypeLink": "#Kwantitatieve Waarde",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Deze eigenschap geeft aan hoeveel oppervlakte nog beschikbaar is op het bedrijventerrein.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "is gerelateerd aan": {
+                        "attribuutNaam": "is gerelateerd aan",
+                        "attribuutLink": "http://purl.org/dc/terms/relation",
+                        "verwachtType": "Planningszone",
+                        "verwachtTypeLink": "#Planningszone",
+                        "Kardinaliteit": "1..*",
+                        "Beschrijving": "Planningszone waarmee het bedrijventerrein kan geassocieerd worden.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "is gerelateerd aan economisch gebied": {
+                        "attribuutNaam": "is gerelateerd aan economisch gebied",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/bedrijventerrein#isGerelateerdAanEconomischGebied",
+                        "verwachtType": "Economisch Gebied",
+                        "verwachtTypeLink": "#Economisch Gebied",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Economisch Gebied waarmee het bedrijventerrein kan geassocieerd worden.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "naam": {
+                        "attribuutNaam": "naam",
+                        "attribuutLink": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                        "verwachtType": "TaalString",
+                        "verwachtTypeLink": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Voorkeursnaam van het Bedrijventerrein.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    }
+                }
+            },
+            "Bedrijventerreinperceel": {
+                "klasseLink": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel",
+                "beschrijving": "Een ruimtelijke eenheid binnen een Bedrijventerrein met eenzelfde gebruik, functie of eigenaar.",
+                "attributen": {
+                    "bebouwing": {
+                        "attribuutNaam": "bebouwing",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/bedrijventerrein#bebouwing",
+                        "verwachtType": "Bebouwing",
+                        "verwachtTypeLink": "#Bebouwing",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Deze eigenschap geeft de aanwezigheid van bebouwing aan op het Bedrijventerreinperceel.",
+                        "Gebruik": "Mogelijke waarden kunnen zijn: bebouwd, onbebouw of infrastructuur.",
+                        "Codelijst": ""
+                    },
+                    "beperking": {
+                        "attribuutNaam": "beperking",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/bedrijventerrein#beperking",
+                        "verwachtType": "Beperking",
+                        "verwachtTypeLink": "#Beperking",
+                        "Kardinaliteit": "0..*",
+                        "Beschrijving": "Deze eigenschap geeft aan welke mogelijke beperking(en) een bepaald bedrijventerreinperceel momenteel ondervindt.",
+                        "Gebruik": "Mogelijke waarden voor dit attribuut zijn: Te saneren, Fysisch niet realiseerbaar, Waterproblematiek, Mobiliteitsproblematiek, Herziening bestemming, Juridische procedure, Reservegrond, Bevriezing door eigenaar of Bevriezing door overheid.",
+                        "Codelijst": ""
+                    },
+                    "beschikbaarheid": {
+                        "attribuutNaam": "beschikbaarheid",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/bedrijventerrein#beschikbaarheid",
+                        "verwachtType": "Beschikbaarheid",
+                        "verwachtTypeLink": "#Beschikbaarheid",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Deze eigenschap geeft de beschikbaarheid aan van een Bedrijventerreinperceel.",
+                        "Gebruik": "Mogelijke waarden voor dit attribuut zijn: Aangeboden, Niet aangeboden of optie.",
+                        "Codelijst": ""
+                    },
+                    "functie": {
+                        "attribuutNaam": "functie",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/bedrijventerrein#functie",
+                        "verwachtType": "Functiewaarde",
+                        "verwachtTypeLink": "#Functiewaarde",
+                        "Kardinaliteit": "1..*",
+                        "Beschrijving": "De functie geeft de (verschillende) functies aan die men kan terugvinden op het Bedrijventerreinperceel en het percentage van het perceel dat gedekt wordt door elke functie.",
+                        "Gebruik": "Modellering geïnspireerd op INSPIRE HILUCS value en HILUCS percentage.",
+                        "Codelijst": ""
+                    },
+                    "in gebruik": {
+                        "attribuutNaam": "in gebruik",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/bedrijventerrein#inGebruik",
+                        "verwachtType": "Gebruik",
+                        "verwachtTypeLink": "#Gebruik",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Dit attribuut geeft aan in welke mate een Bedrijventerreinperceel in gebruik is.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "is deel van": {
+                        "attribuutNaam": "is deel van",
+                        "attribuutLink": "http://purl.org/dc/terms/isPartOf",
+                        "verwachtType": "Bedrijventerrein",
+                        "verwachtTypeLink": "#Bedrijventerrein",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Geeft aan tot welk Bedrijventerrein het Bedrijventerreinperceel behoort.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    }
+                }
+            },
+            "Beheerde Bedrijvenzone": {
+                "klasseLink": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
+                "beschrijving": "Een ruimtelijke eenheid binnen een bedrijventerrein afgebakend door het beheer van een agent.",
+                "attributen": {
+                    "is deel van": {
+                        "attribuutNaam": "is deel van",
+                        "attribuutLink": "http://purl.org/dc/terms/isPartOf",
+                        "verwachtType": "Bedrijventerrein",
+                        "verwachtTypeLink": "#Bedrijventerrein",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "naam": {
+                        "attribuutNaam": "naam",
+                        "attribuutLink": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                        "verwachtType": "TaalString",
+                        "verwachtTypeLink": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Voorkeursnaam van de Beheerde bedrijvenzone",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    }
+                }
+            },
+            "Economisch Gebied": {
+                "klasseLink": "https://data.vlaanderen.be/ns/bedrijventerrein#EconomischGebied",
+                "beschrijving": "Een economisch gebied is een gebied dat afgebakend wordt op basis van dichtheid van hoofdzakelijk bebouwde percelen met economische activiteiten, waarbij de dichtheid wordt uitgedrukt in nabijheid of de afstand tussen deze percelen. De afstand tussen deze percelen, de mix van economische activiteiten en het voorkomen van een gedeelde infrastructuur zijn bepalend voor de differentiatie tussen de types economische gebieden.",
+                "attributen": {
+                    "dominante economische activiteit": {
+                        "attribuutNaam": "dominante economische activiteit",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/bedrijventerrein#dominanteEconomischeActiviteit",
+                        "verwachtType": "DominanteEconomischeActiviteit",
+                        "verwachtTypeLink": "#DominanteEconomischeActiviteit",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "De voornaamste economische activiteit dat geassocieerd kan worden met het Economisch Gebied",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    }
+                }
+            },
+            "Kadastraal Planperceel": {
+                "klasseLink": "https://data.vlaanderen.be/ns/perceel#KadastraalPlanperceel",
+                "beschrijving": "Een gedeelte van het Belgische grondgebied, geografische afgebakend en geïdentificeerd door de AAPD op het kadastraal percelenplan, dat overeenstemt met het grondoppervlak van één of meerdere kadastrale patrimoniale percelen.",
+                "attributen": {
+                    "datum bijwerking": {
+                        "attribuutNaam": "datum bijwerking",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/perceel#datumbijwerking",
+                        "verwachtType": "DateTime",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#dateTime",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Datum van de laatste bijwerking.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    }
+                }
+            },
+            "Ontwikkelbare Bedrijvenzone": {
+                "klasseLink": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
+                "beschrijving": "Een (deel van) een Bedrijventerrein vanaf de mijlpaal publicatie in het Belgisch Staatsblad tot aan de oplevering van de nutsvoorzieningen en infrastructuur. Deze zones kunnen nieuwe terreinen zijn of herontwikkelingstrajecten. Wanneer een (her)ontwikkeling in meerdere fasen gebeurt, dan wordt de ontwikkelbare zone opgesplitst volgens deze fasen.",
+                "attributen": {
+                    "homepage": {
+                        "attribuutNaam": "homepage",
+                        "attribuutLink": "http://xmlns.com/foaf/0.1/homepage",
+                        "verwachtType": "String",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#string",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Adres van de homepage van de website van de ontwikkelbare bedrijvenzone of ontwikkelaar.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "is deel van": {
+                        "attribuutNaam": "is deel van",
+                        "attribuutLink": "http://purl.org/dc/terms/isPartOf",
+                        "verwachtType": "Bedrijventerrein",
+                        "verwachtTypeLink": "#Bedrijventerrein",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "is gerelateerd aan": {
+                        "attribuutNaam": "is gerelateerd aan",
+                        "attribuutLink": "http://purl.org/dc/terms/relation",
+                        "verwachtType": "Bedrijventerreinperceel",
+                        "verwachtTypeLink": "#Bedrijventerreinperceel",
+                        "Kardinaliteit": "0..*",
+                        "Beschrijving": "Bedrijventerreinperceel waarmee de ontwikkelbare bedrijvenzone kan geassocieerd worden.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "naam": {
+                        "attribuutNaam": "naam",
+                        "attribuutLink": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                        "verwachtType": "TaalString",
+                        "verwachtTypeLink": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Voorkeursnaam van de Ontwikkelbare Bedrijvenzone.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "status ontwikkeling": {
+                        "attribuutNaam": "status ontwikkeling",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/bedrijventerrein#statusOntwikkeling",
+                        "verwachtType": "StatusOntwikkeling",
+                        "verwachtTypeLink": "#StatusOntwikkeling",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Geeft de status aan van de Ontwikkelbare Bedrijvezone.",
+                        "Gebruik": "Mogelijke waarden voor dit attribuut zijn: te ontwikkelen, in ontwikkeling, ontwikkeld, ontwikkeling geblokkeerd en niet ontwikkelbaar.",
+                        "Codelijst": ""
+                    },
+                    "voorziene uitgifte": {
+                        "attribuutNaam": "voorziene uitgifte",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/bedrijventerrein#voorzieneUitgifte",
+                        "verwachtType": "Date",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#date",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Het voorziene tijdstip waarop het eerste Bedrijventerreinperceel binnen een ontwikkelbare zone in verkoop zal gaan.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    }
+                }
+            },
+            "Plan": {
+                "klasseLink": "https://data.vlaanderen.be/ns/bedrijventerrein#Plan",
+                "beschrijving": "Een plan waarmee de overheid in een bepaald gebied de bodembestemming vastlegt.",
+                "attributen": {
+                    "bestemming": {
+                        "attribuutNaam": "bestemming",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/bedrijventerrein#bestemming",
+                        "verwachtType": "Bestemming",
+                        "verwachtTypeLink": "#Bestemming",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Geeft de geplande bestemming aan van de planningszone.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "dossierfase": {
+                        "attribuutNaam": "dossierfase",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/bedrijventerrein#dossierfase",
+                        "verwachtType": "Dossierfase",
+                        "verwachtTypeLink": "#Dossierfase",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "De dossierfase geeft aan in welke procedurefase het plan zich bevindt.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "identificator": {
+                        "attribuutNaam": "identificator",
+                        "attribuutLink": "http://www.w3.org/ns/adms#identifier",
+                        "verwachtType": "Identificator",
+                        "verwachtTypeLink": "#Identificator",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "De identificator van het plan.",
+                        "Gebruik": "Hiermee bedoelt men het AlgemeenPlanId.",
+                        "Codelijst": ""
+                    },
+                    "naam": {
+                        "attribuutNaam": "naam",
+                        "attribuutLink": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                        "verwachtType": "TaalString",
+                        "verwachtTypeLink": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Voorkeursnaam van het plan.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "planningsniveau": {
+                        "attribuutNaam": "planningsniveau",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/bedrijventerrein#planningsNiveau",
+                        "verwachtType": "Planningsniveau",
+                        "verwachtTypeLink": "#Planningsniveau",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Geeft het planningsniveau aan van het plan.",
+                        "Gebruik": "Via dit veld kan men aangeven of het plan op gewestelijk, provinciaal of gemeentelijk niveau is opgesteld.",
+                        "Codelijst": ""
+                    },
+                    "publicatiedatum": {
+                        "attribuutNaam": "publicatiedatum",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/bedrijventerrein#publicatiedatum",
+                        "verwachtType": "DateTime",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#dateTime",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Publicatiedatum van de dossierfase in het Belgische Staatsblad.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "schorsing": {
+                        "attribuutNaam": "schorsing",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/bedrijventerrein#schorsing",
+                        "verwachtType": "SchorsingInfo",
+                        "verwachtTypeLink": "#SchorsingInfo",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "De schorsing geeft aan of het plan al dan niet geschorst is en bijhorende metadata over de schorsing.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "startdatum": {
+                        "attribuutNaam": "startdatum",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/bedrijventerrein#startdatum",
+                        "verwachtType": "DateTime",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#dateTime",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Datum van de start van het plan.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "status": {
+                        "attribuutNaam": "status",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/bedrijventerrein#status",
+                        "verwachtType": "Status",
+                        "verwachtTypeLink": "#Status",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Geeft de status aan waarin het plan zich bevindt.",
+                        "Gebruik": "Mogelijke waarden voor dit attribuut zijn: Voorontwerp, ontwerp, definitief en geschorst.",
+                        "Codelijst": ""
+                    },
+                    "stedenbouwkundige voorschriften": {
+                        "attribuutNaam": "stedenbouwkundige voorschriften",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/bedrijventerrein#stedenbouwkundigeVoorschriften",
+                        "verwachtType": "String",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#string",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Link naar de tekst met het stedenbouwkundige voorschrift van het plan.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "toelichtingsnota": {
+                        "attribuutNaam": "toelichtingsnota",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/bedrijventerrein#toelichtingsnota",
+                        "verwachtType": "String",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#string",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Link naar de tekst met de toelichtingsnota van het plan.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    }
+                }
+            },
+            "Planningszone": {
+                "klasseLink": "https://data.vlaanderen.be/ns/bedrijventerrein#Planningszone",
+                "beschrijving": "Een gebied dat gelegen is binnen een bepaalde vastgelegde ruimtelijke bestemming en dat zich in een ruimtelijke bestemmingsprocedure bevindt. De oorspronkelijke vastgelegde bestemming kan door de bestemmingsprocedure gewijzigd of hernomen worden.",
+                "attributen": {
+                    "is gerelateerd aan": {
+                        "attribuutNaam": "is gerelateerd aan",
+                        "attribuutLink": "http://purl.org/dc/terms/relation",
+                        "verwachtType": "Plan",
+                        "verwachtTypeLink": "#Plan",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Plan waarmee de planningszone kan geassocieerd worden.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    }
+                }
+            },
+            "Recht": {
+                "klasseLink": "https://data.vlaanderen.be/ns/perceel#Recht",
+                "beschrijving": "Actie, activiteit of verzameling van acties dat een systeemparticipant mag uitvoeren of mag gebruik maken van een geassocieerde resource.",
+                "attributen": {
+                    "agent": {
+                        "attribuutNaam": "agent",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/perceel#Recht.agent",
+                        "verwachtType": "Agent",
+                        "verwachtTypeLink": "#Agent",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Referentie naar verbonden klasse.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "ruimtelijke Eenheid": {
+                        "attribuutNaam": "ruimtelijke Eenheid",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/perceel#Recht.ruimtelijkeEenheid",
+                        "verwachtType": "Ruimtelijke Eenheid",
+                        "verwachtTypeLink": "#Ruimtelijke Eenheid",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Referentie naar verbonden klasse.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "type": {
+                        "attribuutNaam": "type",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/perceel#Recht.type",
+                        "verwachtType": "Rechttype",
+                        "verwachtTypeLink": "#Rechttype",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "De aard van het recht dat een agent heeft ten opzichte van een ruimtelijke eenheid.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    }
+                }
+            },
+            "Ruimtelijke Eenheid": {
+                "klasseLink": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid",
+                "beschrijving": "Eén gebied (of meerdere gebieden) van land en/of water, of één enkel volume (of meerdere volumes) ruimte, afgebakend voor een bepaald doel.",
+                "attributen": {
+                    "agent met recht": {
+                        "attribuutNaam": "agent met recht",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/perceel#agentMetRecht",
+                        "verwachtType": "Agent",
+                        "verwachtTypeLink": "#Agent",
+                        "Kardinaliteit": "0..*",
+                        "Beschrijving": "Agent die een recht heeft op een ruimtelijke eenheid.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "agent met verantwoordelijkheid": {
+                        "attribuutNaam": "agent met verantwoordelijkheid",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid",
+                        "verwachtType": "Agent",
+                        "verwachtTypeLink": "#Agent",
+                        "Kardinaliteit": "0..*",
+                        "Beschrijving": "Agent die een restrictie heeft met betrekking tot een ruimtelijke eenheid.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "dimensie": {
+                        "attribuutNaam": "dimensie",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/perceel#dimensie",
+                        "verwachtType": "Dimensie",
+                        "verwachtTypeLink": "http://www.w3.org/2004/02/skos/core#Concept",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "De dimensie van de ruimtelijke eenheid.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "geldigheidsperiode": {
+                        "attribuutNaam": "geldigheidsperiode",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/perceel#geldigheidsperiode",
+                        "verwachtType": "Periode",
+                        "verwachtTypeLink": "#Periode",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Tijdsinterval waarbinnen de ruimtelijke eenheid van toepassing is.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "geometrie": {
+                        "attribuutNaam": "geometrie",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie",
+                        "verwachtType": "Ruimtelijke Eenheid Geometrie",
+                        "verwachtTypeLink": "#Ruimtelijke Eenheid Geometrie",
+                        "Kardinaliteit": "1..*",
+                        "Beschrijving": "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "identificator": {
+                        "attribuutNaam": "identificator",
+                        "attribuutLink": "http://www.w3.org/ns/adms#identifier",
+                        "verwachtType": "Identificator",
+                        "verwachtTypeLink": "#Identificator",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "De identificator van de Ruimtelijke Eenheid.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "is gerelateerd aan": {
+                        "attribuutNaam": "is gerelateerd aan",
+                        "attribuutLink": "http://purl.org/dc/terms/relation",
+                        "verwachtType": "Ruimtelijke Eenheid",
+                        "verwachtTypeLink": "#Ruimtelijke Eenheid",
+                        "Kardinaliteit": "0..*",
+                        "Beschrijving": "Andere ruimtelijke eenheid waarmee deze ruimtelijke eenheid kan worden gekoppeld.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "landgebruik": {
+                        "verwachtType": "Link",
+                        "verwachtTypeLink": "http://inspire.ec.europa.eu/codelist/HILUCSValue/",
+                        "attribuutNaam": "niveau",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/perceel#niveau"
+                    },
+                    "niveau": {
+                        "verwachtType": "Integer",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#integer",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Het niveau waarop het object zich bevindt, relatief ten opzichte van andere objecten.",
+                        "Gebruik": "Negatieve waarden worden geassocieerd met ondergronds en positieve waarden met bovengronds. Nul wordt beschouwd als een absolute waarde om het maaiveld aan te duiden.",
+                        "Codelijst": ""
+                    },
+                    "oppervlakte": {
+                        "attribuutNaam": "oppervlakte",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.oppervlakte",
+                        "verwachtType": "Ruimtelijke Eenheid Oppervlakte",
+                        "verwachtTypeLink": "#Ruimtelijke Eenheid Oppervlakte",
+                        "Kardinaliteit": "0..*",
+                        "Beschrijving": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "type": {
+                        "attribuutNaam": "type",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type",
+                        "verwachtType": "RuimtelijkeEenheidtype",
+                        "verwachtTypeLink": "#RuimtelijkeEenheidtype",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "De aard van een ruimtelijke eenheid.",
+                        "Gebruik": "Via deze eigenschap kan men aangeven over welk soort ruimtelijke eenheid men het heeft. Mogelijke voorbeelden zijn onder meer Gebruiksperceel, akteperceel, vervuilingsperceel, openbaar domein, kadastraal planperceel\n",
+                        "Codelijst": ""
+                    }
+                }
+            },
+            "Verantwoordelijkheid": {
+                "klasseLink": "https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid",
+                "beschrijving": "Formele of informele verplichting om iets te doen.",
+                "attributen": {
+                    "agent": {
+                        "attribuutNaam": "agent",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid.agent",
+                        "verwachtType": "Agent",
+                        "verwachtTypeLink": "#Agent",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Referentie naar verbonden klasse.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "ruimtelijke Eenheid": {
+                        "attribuutNaam": "ruimtelijke Eenheid",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid.ruimtelijkeEenheid",
+                        "verwachtType": "Ruimtelijke Eenheid",
+                        "verwachtTypeLink": "#Ruimtelijke Eenheid",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Referentie naar verbonden klasse.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "type": {
+                        "attribuutNaam": "type",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid.type",
+                        "verwachtType": "Verantwoordelijkheidtype",
+                        "verwachtTypeLink": "#Verantwoordelijkheidtype",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "De aard van de verantwoordelijkheid die een agent heeft ten opzichte van een ruimtelijke eenheid.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    }
+                }
+            }
+        },
+        "Datatypes": {
+            "Contactinfo": {
+                "klasseLink": "http://schema.org/ContactPoint",
+                "beschrijving": "Informatie zoals email, telefoon, adres die toelaat om iemand of iets te contacteren.",
+                "attributen": {
+                    "aanschrijfvorm": {
+                        "attribuutNaam": "aanschrijfvorm",
+                        "attribuutLink": "http://www.w3.org/2006/vcard/ns#honorific-prefix",
+                        "verwachtType": "TaalString",
+                        "verwachtTypeLink": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Titel waarmee iemand wordt aangeschreven of aangesproken of waarmee naar iemand wordt verwezen.",
+                        "Gebruik": "Bvb De heer/Mevrouw, Excellentie, Dokter...",
+                        "Codelijst": ""
+                    },
+                    "adres": {
+                        "attribuutNaam": "adres",
+                        "attribuutLink": "http://www.w3.org/ns/locn#address",
+                        "verwachtType": "Adresvoorstelling",
+                        "verwachtTypeLink": "http://www.w3.org/ns/locn#Address",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Adres dat men kan aanschrijven of bezoeken.",
+                        "Gebruik": " ",
+                        "Codelijst": ""
+                    },
+                    "beschikbaarheid": {
+                        "attribuutNaam": "beschikbaarheid",
+                        "attribuutLink": "http://schema.org/hoursAvailable",
+                        "verwachtType": "OpeningsurenSpecificatie",
+                        "verwachtTypeLink": "http://schema.org/OpeningHoursSpecification",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Periode waarin contact kan worden opgenomen.",
+                        "Gebruik": "Bv aanduiding van het seizoen waarin contact kan worden opgenomen. Begin- en einddatum volgens ISO8601 syntax.",
+                        "Codelijst": ""
+                    },
+                    "contactnaam": {
+                        "attribuutNaam": "contactnaam",
+                        "attribuutLink": "http://xmlns.com/foaf/0.1/name",
+                        "verwachtType": "String",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#string",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Naam van bvb de persoon die men kan contacteren.",
+                        "Gebruik": " ",
+                        "Codelijst": ""
+                    },
+                    "email": {
+                        "attribuutNaam": "email",
+                        "attribuutLink": "http://schema.org/email",
+                        "verwachtType": "String",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#string",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Email-adres waarnaar men kan mailen.",
+                        "Gebruik": " ",
+                        "Codelijst": ""
+                    },
+                    "fax": {
+                        "attribuutNaam": "fax",
+                        "attribuutLink": "http://schema.org/faxNumber",
+                        "verwachtType": "String",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#string",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Faxnummer waarnaar men kan faxen.",
+                        "Gebruik": " ",
+                        "Codelijst": ""
+                    },
+                    "openingsuren": {
+                        "attribuutNaam": "openingsuren",
+                        "attribuutLink": "http://schema.org/openingHours",
+                        "verwachtType": "GetypeerdeString",
+                        "verwachtTypeLink": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Uren waarbinnen contact kan worden opgenomen.",
+                        "Gebruik": "Syntax volgens schema.org voor openingsuren. Bv als contact kan worden opgenomen tussen 8 en 20u maandag tot zaterdag en tussen 8 en 18u op zondag wordt dit gecodeerd als Ma-za 08:00-20:00, zo 08:00-18:00.",
+                        "Codelijst": ""
+                    },
+                    "telefoon": {
+                        "attribuutNaam": "telefoon",
+                        "attribuutLink": "http://schema.org/telephone",
+                        "verwachtType": "String",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#string",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Telefoonnummer waarop men kan bellen.",
+                        "Gebruik": " ",
+                        "Codelijst": ""
+                    },
+                    "website": {
+                        "attribuutNaam": "website",
+                        "attribuutLink": "http://xmlns.com/foaf/0.1/page",
+                        "verwachtType": "URI",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#anyURI",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Website waarnaar men kan surfen.",
+                        "Gebruik": " ",
+                        "Codelijst": ""
+                    }
+                }
+            },
+            "Functiewaarde": {
+                "klasseLink": "https://data.vlaanderen.be/ns/bedrijventerrein#Functiewaarde",
+                "beschrijving": "Dit data type geeft weer welke functies aanwezig zijn binnen een Bedrijventerreinperceel en de overeenkomstige percentages.",
+                "attributen": {
+                    "percentage": {
+                        "attribuutNaam": "percentage",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/bedrijventerrein#percentage",
+                        "verwachtType": "Integer",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#integer",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Percentage van het perceel dat gedekt wordt door de functie.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "type": {
+                        "attribuutNaam": "type",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/bedrijventerrein#Functiewaarde.type",
+                        "verwachtType": "Functietype",
+                        "verwachtTypeLink": "#Functietype",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Aanduiding van het functietype.",
+                        "Gebruik": "Mogelijke waarden voor dit attribuut zijn: Landbouw, bos, economie, gemeenschapsvoorziening, infrastructuur, water, wonen, braakliggend, buffer, niet gekend en gemengd.",
+                        "Codelijst": ""
+                    }
+                }
+            },
+            "Geometrie": {
+                "klasseLink": "http://www.w3.org/ns/locn#Geometry",
+                "beschrijving": "Vorm- en positiekenmerken van een object.",
+                "attributen": {
+                    "gml": {
+                        "attribuutNaam": "gml",
+                        "attribuutLink": "http://www.opengis.net/ont/geosparql#asGML",
+                        "verwachtType": "GetypeerdeString",
+                        "verwachtTypeLink": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Geometrie uitgedrukt in gml-formaat.",
+                        "Gebruik": "Gebruik http://www.opengis.net/ont/geosparql#gmlLiteral als datatype.",
+                        "Codelijst": ""
+                    },
+                    "wkt": {
+                        "attribuutNaam": "wkt",
+                        "attribuutLink": "http://www.opengis.net/ont/geosparql#asWKT",
+                        "verwachtType": "GetypeerdeString",
+                        "verwachtTypeLink": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Geometrie uitgedrukt in wkt-formaat.",
+                        "Gebruik": "Gebruik http://www.opengis.net/ont/geosparql#wktLiteral als datatype.",
+                        "Codelijst": ""
+                    }
+                }
+            },
+            "Gestructureerde Identificator": {
+                "klasseLink": "https://data.vlaanderen.be/ns/generiek#GestructureerdeIdentificator",
+                "beschrijving": "Identificator van een object opgesplitst in zijn onderdelen.",
+                "attributen": {
+                    "lokale identificator": {
+                        "attribuutNaam": "lokale identificator",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/generiek#lokaleIdentificator",
+                        "verwachtType": "String",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#string",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "String gebruikt om het object uniek te identificeren binnen de naamruimte.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "naamruimte": {
+                        "attribuutNaam": "naamruimte",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/generiek#naamruimte",
+                        "verwachtType": "String",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#string",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "String die toegvoegd wordt aan de lokaleidentificator om deze globaal uniek te maken.",
+                        "Gebruik": "Laat toe om objecten met dezelfde identificator maar van verschillend type en/of afkomstig uit verschillende domeinen uiteen te houden. In praktijk bv een uri samengesteld uit betekenisvolle elementen zoals een domeinnaam, type en concept (bv https://data.vlaanderen.be/id/adres/). ",
+                        "Codelijst": ""
+                    },
+                    "versie-identificator": {
+                        "attribuutNaam": "versie-identificator",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/generiek#versieIdentificator",
+                        "verwachtType": "String",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#string",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Identificator van de specifieke versie van een object.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    }
+                }
+            },
+            "Getal": {
+                "klasseLink": "https://schema.org/Number",
+                "beschrijving": "Aanduiding van een hoeveelheid.",
+                "attributen": {}
+            },
+            "Identificator": {
+                "klasseLink": "http://www.w3.org/ns/adms#Identifier",
+                "beschrijving": "Informatie gebruikt om een object uniek te identificeren.",
+                "attributen": {
+                    "gestructureerde identificator": {
+                        "attribuutNaam": "gestructureerde identificator",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/generiek#gestructureerdeIdentificator",
+                        "verwachtType": "Gestructureerde Identificator",
+                        "verwachtTypeLink": "#Gestructureerde Identificator",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Identificator vh object opgesplitst in zijn onderdelen.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "identificator": {
+                        "attribuutNaam": "identificator",
+                        "attribuutLink": "http://www.w3.org/2004/02/skos/core#notation",
+                        "verwachtType": "GetypeerdeString",
+                        "verwachtTypeLink": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "String gebruikt om het object uniek te identificeren. ",
+                        "Gebruik": "Type vd string slaat op het identificatiesysteem (incl de versie ervan), de string zelf op de eigenlijke identificator.",
+                        "Codelijst": ""
+                    },
+                    "toegekend door": {
+                        "attribuutNaam": "toegekend door",
+                        "attribuutLink": "http://purl.org/dc/terms/creator",
+                        "verwachtType": "Agent",
+                        "verwachtTypeLink": "#Agent",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Link naar de agent die de identificator heeft uitgegeven.",
+                        "Gebruik": " ",
+                        "Codelijst": ""
+                    },
+                    "toegekend door (String)": {
+                        "attribuutNaam": "toegekend door (String)",
+                        "attribuutLink": "http://www.w3.org/ns/adms#schemaAgency",
+                        "verwachtType": "String",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#string",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Naam vd agent die de identificator heeft toegekend.",
+                        "Gebruik": " ",
+                        "Codelijst": ""
+                    },
+                    "toegekend op": {
+                        "attribuutNaam": "toegekend op",
+                        "attribuutLink": "http://purl.org/dc/terms/issued",
+                        "verwachtType": "DateTime",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#dateTime",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Tijdstip waarop de identificator werd uitgegeven.",
+                        "Gebruik": " ",
+                        "Codelijst": ""
+                    }
+                }
+            },
+            "Kwantitatieve Waarde": {
+                "klasseLink": "https://schema.org/QuantitativeValue",
+                "beschrijving": "Aanduiding van de kwantiteit van een bepaald kenmerk van een object.",
+                "attributen": {
+                    "eenheid": {
+                        "attribuutNaam": "eenheid",
+                        "attribuutLink": "https://schema.org/unitText",
+                        "verwachtType": "String",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#string",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "De eenheid waarin de waarde is uitgedrukt.",
+                        "Gebruik": "Te gebruiken als geen standaard eenheid gekend is.",
+                        "Codelijst": ""
+                    },
+                    "standaard eenheid": {
+                        "attribuutNaam": "standaard eenheid",
+                        "attribuutLink": "https://schema.org/unitCode",
+                        "verwachtType": "Standaard Eenheid",
+                        "verwachtTypeLink": "#Standaard Eenheid",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "De gestandaardiseerde eenheid waarin de waarde is uitgedrukt.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "waarde": {
+                        "attribuutNaam": "waarde",
+                        "attribuutLink": "https://schema.org/value",
+                        "verwachtType": "Getal",
+                        "verwachtTypeLink": "#Getal",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Getal waarmee de kwantiteit van het kenmerk kan worden uitgedrukt.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    }
+                }
+            },
+            "Periode": {
+                "klasseLink": "http://data.europa.eu/m8g/PeriodOfTime",
+                "beschrijving": "Min of meer afgebakende tijdsduur.",
+                "attributen": {
+                    "begin": {
+                        "attribuutNaam": "begin",
+                        "attribuutLink": "http://data.europa.eu/m8g/startTime",
+                        "verwachtType": "DateTime",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#dateTime",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Aanvang van de tijdsduur.",
+                        "Gebruik": " ",
+                        "Codelijst": ""
+                    },
+                    "einde": {
+                        "attribuutNaam": "einde",
+                        "attribuutLink": "http://data.europa.eu/m8g/endTime",
+                        "verwachtType": "DateTime",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#dateTime",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Einde vd tijdsduur.",
+                        "Gebruik": " ",
+                        "Codelijst": ""
+                    }
+                }
+            },
+            "Ruimtelijke Eenheid Geometrie": {
+                "klasseLink": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie",
+                "beschrijving": "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald.",
+                "attributen": {
+                    "default": {
+                        "attribuutNaam": "default",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/perceel#default",
+                        "verwachtType": "Boolean",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#boolean",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Geometrie die moet worden gebruikt bv bij voorstelling op kaart.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "geometrie": {
+                        "attribuutNaam": "geometrie",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie.geometrie",
+                        "verwachtType": "Geometrie",
+                        "verwachtTypeLink": "#Geometrie",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Geometrische voorstelling van een ruimtelijke eenheid.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "methode": {
+                        "verwachtType": "Link",
+                        "verwachtTypeLink": "http://inspire.ec.europa.eu/codelist/GeometryMethodValue",
+                        "attribuutNaam": "officiële oppervlakte",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/perceel#officieleOppervlakte"
+                    }
+                }
+            },
+            "Ruimtelijke Eenheid Oppervlakte": {
+                "klasseLink": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte",
+                "beschrijving": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd.",
+                "attributen": {
+                    "officiële oppervlakte": {
+                        "verwachtType": "Boolean",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#boolean",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Geeft aan of de oppervlakte al dan niet officieel is.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "oppervlakte": {
+                        "attribuutNaam": "oppervlakte",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte.oppervlakte",
+                        "verwachtType": "Kwantitatieve Waarde",
+                        "verwachtTypeLink": "#Kwantitatieve Waarde",
+                        "Kardinaliteit": "1",
+                        "Beschrijving": "Afmeting van een twee-dimensionaal gebied.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "type": {
+                        "attribuutNaam": "type",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/perceel#oppervlaktetype",
+                        "verwachtType": "Oppervlaktetype",
+                        "verwachtTypeLink": "#Oppervlaktetype",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "De methode waarop de oppervlakte bepaald werd;",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    }
+                }
+            },
+            "SchorsingInfo": {
+                "klasseLink": "https://data.vlaanderen.be/ns/bedrijventerrein#SchorsingInfo",
+                "beschrijving": "Geeft informatie over een mogelijke schorsing van het plan.",
+                "attributen": {
+                    "datum schorsing": {
+                        "attribuutNaam": "datum schorsing",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/bedrijventerrein#datumSchorsing",
+                        "verwachtType": "DateTime",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#dateTime",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Geeft de datum weer waarop het plan werd geschorst.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "geschorst": {
+                        "attribuutNaam": "geschorst",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/bedrijventerrein#geschorst",
+                        "verwachtType": "Boolean",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#boolean",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Geeft aan of het plan al dan niet geschorst is.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "link schorsing": {
+                        "attribuutNaam": "link schorsing",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/bedrijventerrein#linkSchorsing",
+                        "verwachtType": "String",
+                        "verwachtTypeLink": "http://www.w3.org/2001/XMLSchema#string",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Link naar het arrest van de schorsing",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    },
+                    "schorsing opmerking": {
+                        "attribuutNaam": "schorsing opmerking",
+                        "attribuutLink": "https://data.vlaanderen.be/ns/bedrijventerrein#schorsingOpmerking",
+                        "verwachtType": "TaalString",
+                        "verwachtTypeLink": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+                        "Kardinaliteit": "0..1",
+                        "Beschrijving": "Opmerkingen in het kader van de schorsing.",
+                        "Gebruik": "",
+                        "Codelijst": ""
+                    }
+                }
+            },
+            "Standaard Eenheid": {
+                "klasseLink": "https://data.vlaanderen.be/ns/generiek#StandaardEenheid",
+                "beschrijving": "Eenheid vastgelegd door een standaardiserende organisatie.",
+                "attributen": {}
+            }
+        }
+    }
+}
